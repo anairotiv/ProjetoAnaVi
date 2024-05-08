@@ -5,6 +5,34 @@
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 768px) {
+    .background {
+        height: auto;
+    }
+    
+    .Main {
+        left: 5%;
+        transform: translateY(0%);
+    }
+    
+    .main-sobre {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 20px;
+    }
+    
+    .logo {
+        font-size: 25px;
+    }
+    
+    nav ul li {
+        padding: 10px 15px;
+    }
+}
 
 .background{
     background-image: url(pret.png);
