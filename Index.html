@@ -13,61 +13,72 @@
 <body>
     <!---Cabeçalho-Main-->
 
-    <div class="background">
+    <div class="background-preto" id="banner">
+        
         <nav>
-            <h2 class="logo">Vitória<span>luz</span></h2><!--Logo-->
-            <ul class="cabeçalho-link">
+            <!--Logo-->
+            <h2 class="logo">Vitória<span>luz</span></h2>
+
+            <!-- links do menu -->
+            <ul>
                 <li><a href="#quemsoueu">Quem sou eu</a></li>
                 <li><a href="#ajuda">Como você pode me ajudar </a></li>
                 <li><a href="#contato">Contato</a></li>
                 <li><a href="#redessociais">Redes sociais</a></li>
-            </ul><!--cabeçalho-link-->
-            <a href="https://wa.link/rgsk0l" class="btn">Entre em contato cmg</a>
+            </ul>
+
+            <!--Botão de contato-->
+            <a href="https://wa.link/rgsk0l" class="contatoBtn">Entre em contato cmg</a>
         </nav>
 
-        <div class="Main">
-            <h4>Oiii, meu nome é</h4>
-            <h1>Ana Vitória <span>Luz :) </span></h1>
-            <h3> Ou vivi, para os intimos. 
-             <p>Se você está aqui provavelmente está curioso para saber sobre a novidade né?</p>
-             <p>Bom, não vou me prolongar muito...
-             <p> Desce ai para saber mais!
-            </h3>
-           <!-- <div class="Container-btn">
-                <form>
-                    <input type="email" nome="email" id="mail" placeholder="Envie seu Email">
-                    <input type="submit" name="submit" value="Começar">
-                </form>-->
-            </div><!--Container-btn-->
-        </div><!--Main-->
+        <div class="Main entreTopicos">
+            <div>
+                <h4>Oiii, meu nome é</h4>
+                <h1 class="titulo">Ana Vitória <span>Luz :) </span></h1>
+                <h3 class="textoMenu"> Ou vivi, para os intimos. <br>
+                    Se você está aqui provavelmente está curioso para saber sobre a novidade né? <br>
+                    Bom, não vou me prolongar muito... <br>
+                    Desce ai para saber mais!
+                </h3>
+            </div>
+        </div>
     </div><!--background-->
 
 
     <!--Começo-da-seção-sobre-->
-
-    <section id="quemsoueu" class="background-color-Sobre">
-        <div class="main-sobre">
-            <img src="eu.jpg">
-            <div class="Text-sobre">
-                <h2> Quem sou eu? </h2>
+    <section id="quemsoueu" class="background-cinza">
+        
+        <!--main-sobre-->
+        <div class="main-sobre ">
+            <img src="eu.jpg" class="entreTopicos">
+            
+            <!--Text-sobre-->
+            <div class="Text-sobre entreTopicos">
+                
+                <h2 class="titulo"> Quem sou eu? </h2>
+                
                 <h5> Estudante de Sistemas de info na UFG <span> & um monte de coisinhas mais...</span></h5>
-                <p>	Minha jornada com a tecnologia começou cedo. Já participei de diversos hackathons e eventos, como o Startup Weekend (foto ao lado!), e me envolvi em programas incríveis como o da NASA e da Gama Academy.
+                
+                <p class="textoMenu">	
+                    Minha jornada com a tecnologia começou cedo. Já participei de diversos hackathons e eventos, como o Startup Weekend (foto ao lado!), e me envolvi em programas incríveis como o da NASA e da Gama Academy. 
+                    <br>Acredito no poder da tecnologia para transformar o mundo. Meu sonho sempre foi utilizar meus conhecimentos para fazer a diferença na vida das pessoas. E agora, estou diante de uma oportunidade única de realizar esse sonho: fui aprovada com bolsa de estudos na Universidade da Pensilvânia, nos Estados Unidos! 
+                    <br>A Universidade da Pensilvânia é uma das melhores instituições de ensino do mundo. Lá, terei acesso a recursos e oportunidades incríveis para aprimorar minhas habilidades e desenvolver meus projetos. Mas para realizar esse sonho, preciso da sua ajuda! A bolsa de estudos cobre apenas parte dos custos, e ainda preciso arrecadar uma reserva segura para poder ir. 
+                </p>
 
-                    Acredito no poder da tecnologia para transformar o mundo. Meu sonho sempre foi utilizar meus conhecimentos para fazer a diferença na vida das pessoas. E agora, estou diante de uma oportunidade única de realizar esse sonho: fui aprovada com bolsa de estudos na Universidade da Pensilvânia, nos Estados Unidos!
-                    A Universidade da Pensilvânia é uma das melhores instituições de ensino do mundo. Lá, terei acesso a recursos e oportunidades incríveis para aprimorar minhas habilidades e desenvolver meus projetos. Mas para realizar esse sonho, preciso da sua ajuda! A bolsa de estudos cobre apenas parte dos custos, e ainda preciso arrecadar uma reserva segura para poder ir. </p>
-                    <form action="#ajuda">
-                        <button type="submit"> Quero te ajudar vivi</button>
-                    </form>
-            </div><!--Text-sobre-->
-        </div><!--main-sobre-->
-    </section><!--background-color-Sobre-->
-
-    <!--Começo-da-seção-nossos-serviços-->
+                <!-- botao de ajuda -->
+                <form action="#ajuda">
+                    <button class="contatoBtn ajudaBtn" type="submit"> Quero te ajudar vivi</button>
+                </form>
+            </div>
+        </div>
+    </section>
     
+        <!--Começo-da-seção-nossos-serviços-->
+        
 
-    <div id= "ajuda" class="Container-serviços">
-        <div class="title">
-            <h2> Como você pode me ajudar? </h2>
+    <section id= "ajuda" class="Container-serviços background-preto ">
+        <div class="title ">
+            <h2 > Como você pode me ajudar? </h2>
         </div><!--title-->
 
 
@@ -101,13 +112,14 @@
                 </div><!--Paragrafo-button-->
             </div><!--Card-->
         </div><!--Caixa-->
-    </div><!--Conatiner-serviços-->
-  
-    
-    <!--Contatos-->
-    <div id= "contato" class="me-contate">
-        <a href="https://wa.link/rgsk0l" class="btn">Se você quiser conversar pode entrar em contato cmg a qualquer momento</a>
-    </div><!--me-contate-->
+    </section><!--Conatiner-serviços-->
+      
+    <div class="background-cinza">
+        <!--Contatos-->
+        <div id= "contato" class="me-contate">
+            <a href="https://wa.link/rgsk0l" class="contatoBtn">Se você quiser conversar pode entrar em contato cmg a qualquer momento</a>
+        </div><!--me-contate-->
+    </div>
 
     <!--Rodapé--->
     <footer>
